@@ -6,7 +6,7 @@ import java.awt.*;
 /**
  * Created by xanture on 6/10/17.
  */
-public class InputPannel extends JPanel{
+public class InputPanel extends JPanel{
     private JButton rectangleButton, circleButton, lineButton, colorButton, quitButton;
     private JCheckBox filledBox;
     private JLabel colorLabel;
@@ -16,7 +16,7 @@ public class InputPannel extends JPanel{
     private Color currentColor;
     private ColoredSquare coloredSquare;
 
-    public InputPannel() {
+    public InputPanel() {
         rectangleButton = new JButton("Rectangle");
         circleButton = new JButton("Circle");
         lineButton = new JButton("Line");
